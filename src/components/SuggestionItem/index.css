@@ -1,0 +1,30 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.item p {
+  font-size: 16px;
+  color: #475569;
+  font-family: 'Roboto';
+  margin: 0;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.arrow {
+  width: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .arrow {
+    width: 24px;
+  }
+}
